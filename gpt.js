@@ -36,7 +36,7 @@ document.getElementById('correctionForm').addEventListener('submit', async funct
     e.preventDefault();
 
     const userInput = document.getElementById('userInput').value; // 사용자 입력 가져오기
-    const apiKey = 'sk-kFroUl4Y6khgPw4hkFrqcSr4-_YSQvFKzFyLWoSFxIT3BlbkFJLXjG1Fchk5zWBdM8NK0WQ7yBQWsdKGaIRACSwtKrAA'; // 여기에 실제 API 키를 입력하세요.
+    const apiKey = ''; // 여기에 실제 API 키를 입력하세요.
 
     const result = await fetchChatCompletion(apiKey, userInput);
     document.getElementById('result').innerText = result;
