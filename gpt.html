@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 글 교정기</title>
+    <script src="gpt.js" defer></script> <!-- JavaScript 파일 불러오기 -->
+</head>
+<body>
+    <h1>AI 글 교정기</h1>
+    
+    <form id="correctionForm">
+        <label for="userInput">교정할 글을 입력하세요:</label><br>
+        <textarea id="userInput" rows="10" cols="50" placeholder="여기에 글을 입력하세요"></textarea><br><br>
+        <button type="submit">AI로 교정하기</button>
+    </form>
+
+    <h2>교정된 결과:</h2>
+    <div id="result"></div>
+</body>
+</html>
